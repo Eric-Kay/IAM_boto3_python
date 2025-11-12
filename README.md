@@ -68,14 +68,14 @@ You can modify the user list, role name, or policy name to suit your environment
 1. **Clone this repository**
 
    ```bash
-   git clone 
-   cd 
+   git clone https://github.com/Eric-Kay/IAM_boto3_python.git
+   cd IAM
    ```
 
 2. **Run the script**
 
    ```bash
-   python iam_setup.py
+   python 
    ```
 
 3. The script will:
