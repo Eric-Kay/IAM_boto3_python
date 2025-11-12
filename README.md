@@ -69,13 +69,13 @@ You can modify the user list, role name, or policy name to suit your environment
 
    ```bash
    git clone https://github.com/Eric-Kay/IAM_boto3_python.git
-   cd IAM
+   cd IAM_boto3_python
    ```
 
 2. **Run the script**
 
    ```bash
-   python 
+   python create_user_role_policy.py
    ```
 
 3. The script will:
@@ -126,7 +126,7 @@ You can modify the user list, role name, or policy name to suit your environment
 
 * Use IAM **least privilege** principles — customize policies as needed.
 
-* To delete the created resources, you can manually remove users, roles, and policies via the **AWS Management Console** or using the script cleanup_iam.py.
+* To delete the created resources, you can manually remove users, roles, and policies via the **AWS Management Console** or using the **script cleanup_iam.py**.
 
 ---
 
